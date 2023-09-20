@@ -18,7 +18,6 @@ export default function About() {
             <h1 className="h1-name">Marharyta Tonchynska</h1>
             <div>
               <p className="frankfurt-mobil">
-                <span className="italic">Frankfurt, Germany</span> <br />
                 +491707813592 • <br className="mail-br" />
                 <a
                   style={{
@@ -30,13 +29,21 @@ export default function About() {
                   rel="noopener noreferrer">
                   tonchynska29@gmail.com
                 </a>
+                <br className="from-br" />
+                <br />
+                <span className="italic" >
+                  born in Kharkiv, Ukraine
+                  <br />
+                  based in Frankfurt, Germany
+                </span>
+               
               </p>
             </div>
           </div>
         </Card>
       </Card>
       <Row className="row-wrap">
-        <Col sm={4} style={{paddingRight: "30px"}}>
+        <Col sm={4} style={{ paddingRight: "30px" }}>
           <h2 className="h2-headers">Skills</h2>
           <ul className="skills-ul">
             <li>React</li>
@@ -88,7 +95,6 @@ export default function About() {
               rel="noopener noreferrer">
               <AiFillLinkedin size={"30px"} /> LinkedIn
             </a>
-           
           </div>
         </Col>
 
