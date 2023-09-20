@@ -36,7 +36,7 @@ export default function About() {
         </Card>
       </Card>
       <Row className="row-wrap">
-        <Col sm={4}>
+        <Col sm={4} style={{paddingRight: "30px"}}>
           <h2 className="h2-headers">Skills</h2>
           <ul className="skills-ul">
             <li>React</li>
@@ -88,18 +88,12 @@ export default function About() {
               rel="noopener noreferrer">
               <AiFillLinkedin size={"30px"} /> LinkedIn
             </a>
-            <a
-              className="foot-link"
-              href="https://instagram.com/marharyta_tonchynska?igshid=OGQ5ZDc2ODk2ZA=="
-              target="_blank"
-              rel="noopener noreferrer">
-              <AiFillInstagram size={"30px"} /> Instagram
-            </a>
+           
           </div>
         </Col>
 
         <Col sm={8}>
-          <h2 className="h2-headers">Employment History</h2>
+          <h2 className="h2-headers">Work experience</h2>
           <h5 style={{ fontSize: "24px" }}>
             UX/UI Design Internship,{" "}
             <a
@@ -124,7 +118,7 @@ export default function About() {
           <p style={{ fontSize: "24px" }}>
             O.M. Beketov National University of Urban Economy in Kharkiv{" "}
           </p>
-          <p className="italic">September 2022 - August 2024</p>
+          <p className="italic">September 2022 - Present</p>
           <p style={{ fontSize: "18px" }}>
             Master of Philology (Germanic Languages and Literatures)
           </p>

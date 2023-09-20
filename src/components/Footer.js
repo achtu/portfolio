@@ -42,13 +42,7 @@ export default function Footer() {
               rel="noopener noreferrer">
               <AiFillLinkedin size={"30px"} /> LinkedIn
             </a>
-            <a
-              className="foot-link"
-              href="https://instagram.com/marharyta_tonchynska?igshid=OGQ5ZDc2ODk2ZA=="
-              target="_blank"
-              rel="noopener noreferrer">
-              <AiFillInstagram size={"30px"} /> Instagram
-            </a>
+        
             </div>
           </Col>
         </Row>

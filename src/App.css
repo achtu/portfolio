@@ -57,7 +57,7 @@
   text-align: center;
   width: 35vw;
   min-width: 350px;
-  margin: 15vh auto 5vh auto;
+  margin: 7vh auto 1vh auto;
 }
 .prof-i {
   width: 15vw;
@@ -76,7 +76,7 @@
 }
 
 .h2-headers {
-  padding: 2vh 0px;
+  padding: 5vh 0px 0px 0px;
 }
 
 .hr-style-one {
@@ -84,6 +84,12 @@
   height: 1px;
   background: #333;
   background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+/*HEADER*/
+.header-name{
+  align-items: center;
+  display: flex;
+  
 }
 /*FOOTER */
 .foot-wrp {

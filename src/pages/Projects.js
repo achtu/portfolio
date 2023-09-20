@@ -13,8 +13,7 @@ export default function Projects() {
       <h1
         style={{
           textAlign: "center",
-          paddingTop: "3vh",
-          paddingBottom: "5vh",
+          paddingBottom:"5vh"
         }}>
         Projects
       </h1>

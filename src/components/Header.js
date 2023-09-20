@@ -18,7 +18,7 @@ export default function Header() {
    <Navbar expand="lg"  className="bg-body-tertiary"  bg="light" data-bs-theme="light">
    <Container>
     
-        <Navbar.Brand href="/"> <AiFillGithub size={30}/> Marharyta Tonchynska</Navbar.Brand>
+        <Navbar.Brand href="/"><span className='header-name'> <AiFillGithub size={30} style={{paddingRight:"1px"}}/> Marharyta Tonchynska</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
