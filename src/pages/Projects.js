@@ -21,7 +21,7 @@ export default function Projects() {
       <div className="card-wrap-pro">
         <Card className="pro-card">
           <Card.Body>
-            <img src={pro1} className="project-i" alt="first project" />
+          <a href="https://majestic-gelato-7f2f1e.netlify.app" target="_blank" rel="noopener noreferrer"> <img src={pro1} className="project-i" alt="first project" /></a>
             <div>
               <h3>
                 {" "}
@@ -38,12 +38,13 @@ export default function Projects() {
         <br />
         <Card className="pro-card">
           <Card.Body>
-            <img src={pro3} className="project-i" alt="first project" />
+          <a href="https://cool-daffodil-f619f5.netlify.app" target="_blank" rel="noopener noreferrer">  <img src={pro3} className="project-i" alt="first project" /></a>
             <div>
               <h3>
                 {" "}
                 Little game
                 <FaGamepad />
+               
               </h3>
               A simple game written using CSS with minimal use of JavaScript. in
               this game you can enter your nickname. Ant will collect coins and
@@ -54,7 +55,7 @@ export default function Projects() {
         <br />
         <Card className="pro-card">
           <Card.Body>
-            <img src={pro2} className="project-i" alt="first project" />{" "}
+          <a href="https://poetic-chimera-d54113.netlify.app" target="_blank" rel="noopener noreferrer"> <img src={pro2} className="project-i" alt="first project" /></a>{" "}
             <div>
               <h3>
                 {" "}
