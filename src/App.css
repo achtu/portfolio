@@ -16,15 +16,9 @@
     max-width: 210px;
     padding-left: 4vw;
   }
-
-  .project-i {
-    height: auto;
-    width: 100px;
-    max-width: 100px;
-   
-    border-radius: 5px;
-    padding-right: 2vw;
-  }
+.project-i{
+  max-width:15vw ;
+}
   .mail-br {
     display: block;
   }
@@ -59,7 +53,7 @@
   margin: 7vh auto 1vh auto;
 }
 .prof-i {
-  width: 15vw;
+  max-width: 15vw;
 }
 
 .row-wrap {

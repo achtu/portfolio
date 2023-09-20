@@ -38,7 +38,7 @@ export default function Projects() {
         <br />
         <Card className="pro-card">
           <Card.Body>
-          <a href="https://cool-daffodil-f619f5.netlify.app" target="_blank" rel="noopener noreferrer">  <img src={pro3} className="project-i" alt="first project" /></a>
+          <a href="https://cool-daffodil-f619f5.netlify.app" target="_blank" rel="noopener noreferrer">  <img src={pro3} className="project-i" alt="secons project" /></a>
             <div>
               <h3>
                 {" "}
@@ -55,7 +55,7 @@ export default function Projects() {
         <br />
         <Card className="pro-card">
           <Card.Body>
-          <a href="https://poetic-chimera-d54113.netlify.app" target="_blank" rel="noopener noreferrer"> <img src={pro2} className="project-i" alt="first project" /></a>{" "}
+          <a href="https://poetic-chimera-d54113.netlify.app" target="_blank" rel="noopener noreferrer"> <img src={pro2} className="project-i" alt="third project" /></a>{" "}
             <div>
               <h3>
                 {" "}
