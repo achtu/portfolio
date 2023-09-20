@@ -5,9 +5,11 @@
   }
   .prof-i {
     width: auto;
-    height: 20vh;
+    height: 18vh;
   }
-
+.frankfurt-mobil{
+  max-width: 200px;
+}
   .project-i {
     height: auto;
     width: 30vw;
