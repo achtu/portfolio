@@ -3,12 +3,19 @@
     padding-left: 0px;
     padding-top: 0px;
   }
-  .prof-i {
-    width: auto;
-    height: 18vh;
-  }
+
 .frankfurt-mobil{
-  max-width: 150px;
+  max-width: 100px;
+}
+.prof-i {
+  width: auto;
+  margin-left: 0px;
+  height: 18vh;
+}
+.about-portret-text{
+  margin-right: 0px;
+  
+
 }
   .project-i {
     height: auto;
@@ -50,9 +57,13 @@
   margin: 15vh auto 5vh auto;
 }
 .prof-i {
-  width: 200px;
+  width: 15vw;
+  margin-left: 10vw;
 }
+.about-portret-text{
+  margin-right: 10vw;
 
+}
 .row-wrap {
   padding-top: 5vh;
   width: 90%;
@@ -60,14 +71,7 @@
 .language-wrp {
   padding-bottom: 5vh;
 }
-.projects-wrp {
-  height: auto;
-  margin-bottom: 0px;
-  width: 100%;
-}
-.proj-name {
-  color: #0dcaf0;
-}
+
 .h2-headers {
   padding: 2vh 0px;
 }

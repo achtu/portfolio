@@ -11,15 +11,15 @@ export default function About() {
   const german = 50;
   return (
     <div className="about-wrp">
-      <Card >
+      <Card>
        <Card body>
           <img src={portret} alt="Marhatyta Tonchynska" className="prof-i" />
-        <div  style={{ padding: "0px 2vw"}}>
+        <div className="about-portret-text">
             <h1 className="h1-name">Marharyta Tonchynska</h1>
 <div  style={{ position:"absolute", bottom:"2px" }}>
             <p className="frankfurt-mobil"><span  className="italic">
               Frankfurt, Germany</span> <br />
-              +491707813592 • <br className="mail-br"/>
+              +491707813592  • <br className="mail-br"/>
               <a
                 style={{ textDecoration: "none", padding: "0px 5px", color:"#0DCAF0"}}
                 href="mailto:tonchynska29@gmail.com"
