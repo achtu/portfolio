@@ -43,7 +43,7 @@ export default function About() {
         </Card>
       </Card>
       <Row className="row-wrap">
-        <Col sm={4} style={{ paddingRight: "30px" }}>
+        <Col sm={4} style={{ paddingRight: "50px" }}>
           <h2 className="h2-headers">Skills</h2>
           <ul className="skills-ul">
             <li>React</li>

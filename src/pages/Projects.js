@@ -59,7 +59,7 @@ export default function Projects() {
             <div>
               <h3>
                 {" "}
-                Restaurant Website and interactive menu
+                Restaurant Website and menu
                 <BiRestaurant />
               </h3>
               This site is also written with mimimal use of JavaScript, but it

@@ -8,10 +8,9 @@
   }
 
   .prof-i {
-  height: auto;
-  width: auto;
-  min-width: 30vw;
-
+    height: auto;
+    width: auto;
+    min-width: 30vw;
   }
   .about-portret-text {
     max-width: 210px;
@@ -20,7 +19,9 @@
 
   .project-i {
     height: auto;
-    width: 14vw;
+    width: auto;
+    max-width: 35vw;
+   
     border-radius: 5px;
     padding-right: 2vw;
   }
