@@ -3,7 +3,7 @@ import portret from "../assets/IMG_8708.jpg";
 import { Card, Col, ProgressBar, Row } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
-import { AiFillInstagram } from "react-icons/ai";
+
 
 export default function About() {
   const mothertongue = 100;
