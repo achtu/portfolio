@@ -3,18 +3,20 @@
     padding-left: 0px;
     padding-top: 0px;
   }
-
+.h1-name{
+  font-size: 18px;
+}
 .frankfurt-mobil{
-  max-width: 100px;
+  max-width: 300px;
 }
 .prof-i {
   width: auto;
-  margin-left: 0px;
+  margin: 0px;
   height: 18vh;
 }
 .about-portret-text{
   margin-right: 0px;
-  
+  font-size: 18px;
 
 }
   .project-i {

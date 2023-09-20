@@ -12,25 +12,28 @@ export default function About() {
   return (
     <div className="about-wrp">
       <Card>
-       <Card body>
+        <Card body>
           <img src={portret} alt="Marhatyta Tonchynska" className="prof-i" />
-        <div className="about-portret-text">
+          <div className="about-portret-text">
             <h1 className="h1-name">Marharyta Tonchynska</h1>
-<div  style={{ position:"absolute", bottom:"2px" }}>
-            <p className="frankfurt-mobil"><span  className="italic">
-              Frankfurt, Germany</span> <br />
-              +491707813592  • <br className="mail-br"/>
-              <a
-                style={{ textDecoration: "none", padding: "0px 5px", color:"#0DCAF0"}}
-                href="mailto:tonchynska29@gmail.com"
-                rel="noopener noreferrer">
-                tonchynska29@gmail.com
-              </a>
-            </p>
+            <div>
+              <p className="frankfurt-mobil">
+                <span className="italic">Frankfurt, Germany</span> <br />
+                +491707813592 • <br className="mail-br" />
+                <a
+                  style={{
+                    textDecoration: "none",
+                    padding: "0px 5px",
+                    color: "#0DCAF0",
+                  }}
+                  href="mailto:tonchynska29@gmail.com"
+                  rel="noopener noreferrer">
+                  tonchynska29@gmail.com
+                </a>
+              </p>
             </div>
-            </div>
-            </Card>
-        
+          </div>
+        </Card>
       </Card>
       <Row className="row-wrap">
         <Col sm={4}>
@@ -71,7 +74,7 @@ export default function About() {
             <ProgressBar variant="warning" now={german} label={`${german}%`} />
           </div>{" "}
           <div className="social">
-            <a 
+            <a
               className="foot-link"
               href="https://github.com/achtu"
               target="_blank"
@@ -98,9 +101,15 @@ export default function About() {
         <Col sm={8}>
           <h2 className="h2-headers">Employment History</h2>
           <h5 style={{ fontSize: "24px" }}>
-            UX/UI Design Internship, <a  href="https://www.l-one.de/" target="_blank"
-              style={{ textDecoration: "none", color:"#0DCAF0"}}
-              rel="noopener noreferrer" >L-One Systems GmbH</a>, Darmstadt, Germany
+            UX/UI Design Internship,{" "}
+            <a
+              href="https://www.l-one.de/"
+              target="_blank"
+              style={{ textDecoration: "none", color: "#0DCAF0" }}
+              rel="noopener noreferrer">
+              L-One Systems GmbH
+            </a>
+            , Darmstadt, Germany
           </h5>
           <p className="italic">April 2022 - August 2022</p>
           <ul>
@@ -130,7 +139,7 @@ export default function About() {
           <p style={{ fontSize: "18px" }}>
             Membership in a charity public organization{" "}
             <a
-              style={{ textDecoration: "none", color:"#0DCAF0"}}
+              style={{ textDecoration: "none", color: "#0DCAF0" }}
               href="https://www.linkedin.com/company/jugendderukraine/?originalSubdomain=de"
               target="_blank"
               rel="noopener noreferrer">
@@ -144,7 +153,7 @@ export default function About() {
           </p>
         </Col>
       </Row>
-      <hr className="hr-style-one"/>
+      <hr className="hr-style-one" />
     </div>
   );
 }
