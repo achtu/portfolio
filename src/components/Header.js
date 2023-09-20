@@ -3,7 +3,8 @@ import Projects from '../pages/Projects'
 import About from '../pages/About'
 import Contact from '../pages/Contact'
 import Home from '../pages/Home'
-import Cooki from '../assets/bxs_cookie.svg'
+
+import { AiFillGithub } from "react-icons/ai";
 
 
 
@@ -17,7 +18,7 @@ export default function Header() {
    <Navbar expand="lg"  className="bg-body-tertiary"  bg="light" data-bs-theme="light">
    <Container>
     
-        <Navbar.Brand href="/"><img src={Cooki} alt='cooki art'/> Marharyta Tonchynska</Navbar.Brand>
+        <Navbar.Brand href="/"> <AiFillGithub size={30}/> Marharyta Tonchynska</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
