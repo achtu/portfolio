@@ -14,13 +14,13 @@
   }
   .about-portret-text {
     max-width: 210px;
-    padding-left: 2vw;
+    padding-left: 4vw;
   }
 
   .project-i {
     height: auto;
-    width: 20vw;
-    max-width: 20vw;
+    width: 100px;
+    max-width: 100px;
    
     border-radius: 5px;
     padding-right: 2vw;

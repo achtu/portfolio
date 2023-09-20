@@ -12,7 +12,7 @@ export default function Footer() {
           <Col>
             {" "}
             <a href="/" className="foot-link foot-name">
-            <span className='header-name'> <AiFillGithub size={30} style={{paddingRight:"1px"}}/> Marharyta Tonchynska</span>
+              Marharyta Tonchynska
             </a>
             <a href="/about" className="foot-link">
               About
