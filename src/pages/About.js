@@ -19,7 +19,7 @@ export default function About() {
 <div  style={{ position:"absolute", bottom:"2px" }}>
             <p className="frankfurt-mobil"><span  className="italic">
               Frankfurt, Germany</span> <br />
-              +491707813592 •
+              +491707813592 • <br className="mail-br"/>
               <a
                 style={{ textDecoration: "none", padding: "0px 5px", color:"#0DCAF0"}}
                 href="mailto:tonchynska29@gmail.com"

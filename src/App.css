@@ -7,14 +7,15 @@
     width: auto;
     height: 20vh;
   }
-  .frankfurt-mobil {
-    display: none;
-  }
+
   .project-i {
     height: auto;
     width: 30vw;
     border-radius: 5px;
     padding-right: 2vw;
+  }
+  .mail-br{
+    display: block;
   }
 }
 
@@ -23,7 +24,9 @@
   font-family: "Montserrat", sans-serif;
   font-family: "Outfit", sans-serif;
 }
-
+.mail-br{
+  display: none;
+}
 .home-wrp,
 .contact-wrp,
 .about-wrp {
