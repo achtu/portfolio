@@ -2,7 +2,7 @@ import React from "react";
 import { TiWeatherDownpour } from "react-icons/ti";
 import { FaGamepad } from "react-icons/fa";
 import { BiRestaurant } from "react-icons/bi";
-import pro1 from "../assets/pro1.png";
+import pro1 from "../assets/Снимок экрана (33).png";
 import pro3 from "../assets/pro3.png";
 import pro2 from "../assets/pro2.png";
 import { Card } from "react-bootstrap";
