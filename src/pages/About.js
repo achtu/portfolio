@@ -1,5 +1,5 @@
 import React from "react";
-import portret from "../assets/IMG_8708.jpg";
+import portret from "../assets/portrait.res.JPG";
 import { Card, Col, ProgressBar, Row } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
