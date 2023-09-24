@@ -42,13 +42,11 @@ export default function Projects() {
             <div>
               <h3>
                 {" "}
-                Little game
+                Magic memory game
                 <FaGamepad />
                
               </h3>
-              A simple game written using CSS with minimal use of JavaScript. in
-              this game you can enter your nickname. Ant will collect coins and
-              must jump over stumps otherwise he will los
+              A simple game written using CSS with minimal use of React.In this game you can guess the cards and try to find matches and win the game by turning over all the cards.
             </div>
           </Card.Body>
         </Card>
