@@ -3,7 +3,7 @@ import { TiWeatherDownpour } from "react-icons/ti";
 import { FaGamepad } from "react-icons/fa";
 import { BiRestaurant } from "react-icons/bi";
 import pro1 from "../assets/Снимок экрана (33).png";
-import pro3 from "../assets/pro3.png";
+import pro3 from "../assets/Снимок экрана (34).png";
 import pro2 from "../assets/pro2.png";
 import { Card } from "react-bootstrap";
 
@@ -38,7 +38,7 @@ export default function Projects() {
         <br />
         <Card className="pro-card">
           <Card.Body>
-          <a href="https://cool-daffodil-f619f5.netlify.app" target="_blank" rel="noopener noreferrer">  <img src={pro3} className="project-i" alt="secons project" /></a>
+          <a href="https://tiny-gnome-d15cb0.netlify.app/" target="_blank" rel="noopener noreferrer">  <img src={pro3} className="project-i" alt="secons project" /></a>
             <div>
               <h3>
                 {" "}
